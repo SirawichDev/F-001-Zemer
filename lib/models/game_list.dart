@@ -30,6 +30,11 @@ List<GameList> gameList = [
       image: "assets/images/nba.jpeg",
       date: DateTime(2020, 10, 15),
       users: users..shuffle(Random(4))),
+  GameList(
+      name: "Resident Evil",
+      image: "assets/images/resident.jpg",
+      date: DateTime(2020, 10, 15),
+      users: users..shuffle(Random(3))),
 ];
 
 List<User> users = [u1, u2, u4,u5,u6,u7, u8];
