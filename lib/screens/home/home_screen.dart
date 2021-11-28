@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
       extendBodyBehindAppBar: true,
       appBar: buildAppBar(context, isTransparent: true),
       body: const Body(),
-      bottomNavigationBar: const BottomNav(),
+      bottomNavigationBar: BottomNav(),
     );
   }
 }
