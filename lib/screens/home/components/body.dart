@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:zemer/screens/home/components/home_header.dart';
 import 'package:zemer/screens/home/components/popular_games.dart';
+import 'package:zemer/screens/home/components/top_player.dart';
 import 'package:zemer/size_config.dart';
 class Body extends StatelessWidget {
   const Body({Key? key}) : super(key: key);
@@ -17,7 +18,8 @@ class Body extends StatelessWidget {
             HomeHeader(),
             VerticalSpacing(),
             PopularGame(),
-            VerticalSpacing()
+            VerticalSpacing(),
+            TopPlayer()
           ],
         ),
       ),
