@@ -34,7 +34,13 @@ class NavItem extends StatelessWidget {
             SvgPicture.asset(
               icon,
               color: kTextColor,
+              semanticsLabel: 'xx',
               height: 20,
+              allowDrawingOutsideViewBox: true,
+              placeholderBuilder: (BuildContext context) => Container(
+                  padding: const EdgeInsets.all(30.0),
+                  child: const CircularProgressIndicator()),
+              width: 20,
             ),
             const Spacer(),
             Text(
